@@ -11,4 +11,3 @@ $("#left-img-story").click(function (){
     $('.story-ul').animate({'margin-left':'-=200px'})
 
 })
-..
