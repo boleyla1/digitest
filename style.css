@@ -219,6 +219,7 @@
     position: relative;
     right: 0;
     overflow: auto;
+    background: yellow;
 
 
 }
@@ -230,6 +231,7 @@
     left: 0;
     top: 0;
     overflow: auto;
+    background: blue;
 
 }
 .div-story
@@ -293,4 +295,140 @@
     position: absolute;
     left: 0;
     top: 33px;
+}
+
+#challenges
+{
+    width: 100%;
+    height: 106px;
+
+    position: relative;
+    top: 4px;
+}
+.challeng
+{
+    width: 1402px;
+    height: 100px;
+    align-items: center;
+    top: 15px;
+    left: 59px;
+
+
+}
+.challeng-ul
+{
+    width: 100%;
+    height: 89px;
+    position: relative;
+    margin: auto;
+
+
+
+}
+.challeng-ul li
+{
+
+    direction: rtl;
+    float: right;
+    margin-right: 5px;
+    list-style: none;
+    padding-right: 84px;
+    margin-top: 7px;
+}
+.challeng-ul img
+{
+    width: 60px;
+    height: 60px;
+
+}
+#more-icon
+{
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    background: #d4d4d4;
+    border-radius: 40px;
+    position: absolute;
+}
+#more-icon img
+{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 13px;
+    top: 12px;
+
+}
+.Slider-Img{
+    margin-top:25px ;
+    position: relative;
+}
+.Right-btn img{
+    height: 32px;
+    width: 38px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background: #d4d4d4;
+    border-radius: 25px;
+
+}
+.Left-btn img{
+    height: 32px;
+    width: 38px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    background: #d4d4d4;
+    border-radius: 25px;
+
+}
+.div-btn
+{
+    width: 85px;
+    height: 50px;
+   position: relative;
+    float: right;
+    bottom: 68px;
+    right: 42px;
+    display: none;
+}
+#pishanahad-offer
+{
+    width: 100%;
+    height: 300px;
+    background: red;
+}
+.offer-list
+{
+    width: 1326px;
+    height: 293px;
+    background: blue;
+    margin: auto;
+    position: relative;
+    top: 4px;
+}
+#off
+{
+    width: 155px ;
+    height: 293px;
+    background: black;
+    position: absolute;
+    right: 0;
+}
+#off img
+{
+    width: 101px;
+    height: 101px;
+    position: absolute;
+    bottom: 70px;
+    right: 25px;
+
+}
+#amazing
+{
+    width: 88px;
+    height: 78px;
+
+    position: absolute;
 }
