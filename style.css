@@ -200,6 +200,11 @@
     box-shadow: 1px 1px 1px 1px darkgray;
     margin-top: 6px;
 }
+.main
+{
+    width: 100%;
+    height: 2000px;
+}
 .master-div
 {
     width: 67%;
@@ -393,42 +398,438 @@
     right: 42px;
     display: none;
 }
-#pishanahad-offer
+.offer
 {
-    width: 100%;
-    height: 300px;
-    background: red;
-}
-.offer-list
-{
-    width: 1326px;
-    height: 293px;
-    background: blue;
+    width: 81%;
+    height: 280px;
+    background: crimson;
     margin: auto;
-    position: relative;
-    top: 4px;
+    overflow: hidden;
+    border-radius: 25px;
 }
-#off
+.offer li
 {
-    width: 155px ;
-    height: 293px;
-    background: black;
-    position: absolute;
-    right: 0;
+    display: inline-block;
+    height: 90%;
+    margin-top: 10px;
 }
-#off img
+.offer img
 {
-    width: 101px;
-    height: 101px;
-    position: absolute;
-    bottom: 70px;
-    right: 25px;
+    width: 110px;
+    height: 110px;
+    margin-top: 10px;
+}
+.offer div
+{
+    width: 190px;
+    height: 100%;
+    background: white;
+    text-align: center;
 
+}
+.offer ul{
+    height: 100%;
+    margin-left: -124px;
+}
+#takhfif div{
+    background: crimson;
+}
+#takhfif1
+{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 128px;
 }
 #amazing
 {
-    width: 88px;
-    height: 78px;
-
     position: absolute;
+}
+.sup-first
+{
+    width: 100%;
+    height: 130px;
+    margin: auto;
+
+}
+.sup
+{
+    background: #1cb200;
+    width: 1231px;
+    height: 106px;
+    left: 144px;
+    border-radius: 25px;
+    position: relative;
+    top: 10px;
+}
+.supermarket-icon
+{
+    width: 524px ;
+    height: 98px;
+
+    float: right;
+    position: relative;
+    top: 4px;
+
+}
+#darsad
+{
+    width: 111px;
+    height: 98px;
+    position: relative;
+    float: right;
+}
+#darsad img
+{
+    width: 99px;
+    height: 70px;
+    top: 12px;
+    position: absolute;
+}
+#sup-shegeft
+{
+    width: 307px;
+    height: 99px;
+    float: right;
+}
+#sup-shegeft img
+{
+    position: absolute;
+    top: 34px;
+    right: 123px;
+}
+#btn-takhfif
+{
+    height: 98px;
+    width: 122px;
+    position: relative;
+    left: 10px;
+}
+#btn-takhfif p
+{
+    background: #14ed0f;
+    width: 102px;
+    height: 31px;
+    position: relative;
+    text-align: center;
+    top: 30px;
+    left: 9px;
+    border-radius: 37px;
+    padding-top: 12px;
+}
+#kala-sup
+{
+    width: 708px;
+    height: 105px;
+
+}
+#icon-sup
+{
+    width: 578px;
+    height: 105px;
+
+    float: right;
+
+}
+#icon-sup li
+{
+    display: inline-block;
+    position: relative;
+    float: right;
+    border-radius: 10px;
+    width: 83px;
+    height: 62px;
+
+    margin-right: 10px;
+    top: 20px;
+}
+#icon-sup ul
+{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+}
+#icon-sup img
+{
+    position: absolute;
+    height: 52px;
+    width: 54px;
+    top: 6px;
+    right: 18px;
+    border-radius: 30px;
+}
+
+#p-div
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #1cb200;
+    top: 128px;
+    display: inline;
+}
+.kalasad
+{
+    width: 108px;
+    height: 46px;
+    background:#00ff2b;
+    position: absolute;
+    top: 30px;
+    left: 24px;
+    border-radius: 40px;
+}
+.kalasad p
+{
+        text-align: center;
+        font-size: 14px;
+        position: relative;
+        top: 14px;
+        left: 12px;
+
+}
+.div-moarefi
+{
+    width: 100%;
+    height: 241px;
+}
+.moarefi
+{
+    width:82%;
+    height: 91%;
+    margin: auto;
+    position: relative;
+    
+}
+.kala-pakize
+{
+    width: 100%;
+    height: 219px;
+    display: inline-block;
+    position: relative;
+}
+.kala-pakize img
+{
+    width: 308px;
+    height: 212px;
+    position: relative;
+    border-radius: 14px;
+    float: right;
+    padding-right: 3px;
+
+}
+.kala-pakize div
+{
+    width: 309px;
+    height: 330px;
+    position: absolute;
+    display: contents;
+}
+.dasteh-search
+{
+
+    width: 21%;
+    height: 58px;
+    margin: auto;
+}
+.dasteh-search p
+{
+    text-align: center;
+    font-size: 27px;
+}
+.dastehbandi1
+{
+    height: 334px;
+    width: 88%;
+    margin: auto;
+}
+#dastehbandi2
+{
+    height: 301px;
+    width: 96%;
+    margin: auto;
+
+}
+.icon-dasteh
+{
+    width: 135px;
+    height: 95px;
+
+    position: relative;
+}
+.icon-dasteh img
+{
+    position: absolute;
+    right: 6px;
+    height: 92px;
+    width: 116px;
+}
+.div-dasteh-text
+{
+    width: 135px;
+    height: 34px;
+    top: 10px;
+    position: relative;
+}
+.div-org-dasteh
+{
+    width: 135px;
+    height: 149px;
+    float: right;
+    display: inline-block;
+    padding-right: 40px;
+}
+.div-dasteh-text
+{
+    text-align: center;
+    font-size: 14px;
+}
+.moarefi2
+{
+    width: 100%;
+    height: 320px;
+}
+#div-moarefi2
+{
+    width: 82%;
+    height: 300px;
+    margin: auto;
+}
+#pic-right
+{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+#pic-left
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#pic-right img
+{
+    position: relative;
+    width: 93%;
+    height: 90%;
+    left: 17px;
+    border-radius: 15px;
+}
+#pic-left img
+{
+    position: relative;
+    width: 93%;
+    height: 90%;
+    left: 17px;
+    border-radius: 15px;
+}
+.pishnahad-org
+{
+    width: 100%;
+    height: 391px;
+}
+.pishnahad
+{
+    width: 80%;
+    height: 375px;
+    margin: auto;
+    position: relative;
+
+}
+#text-pishnahad
+{
+    width: 100%;
+    height: 64px;
+    text-align: center;
+}
+#text-pishnahad p{
+    font-size: 32px;
+}
+.div-pishnahad
+{
+    width: 172px;
+    height: 143px;
+    display: inline-block;
+    border: gray solid 1px;
+    text-align: center;
+    position: relative;
+    float: right;
+}
+.div-pishnahad img
+{
+    width: 119px;
+    height: 118px;
+    padding-top: 23px;
+    z-index: 100;
+    position: relative;
+
+
+}
+#div1-pishnahad
+{
+    border: gray solid 1px;
+    width: 100%;
+    height: 77%;
+}
+.div-pishnahad h5
+{
+    padding-top: 27px;
+}
+.img-background
+{
+    width: 100px;
+    height: 100px;
+    background:#eee;
+    display: inline-block;
+    position: absolute;
+    left: 38px;
+    top: 6px;
+    border-radius: 65px;
+}
+.fav
+{
+    width: 100%;
+    height: 263px;
+
+}
+.fav-full
+{
+    height: 93%;
+    width: 81%;
+    margin: auto;
+    border: #eee 1px solid;
+}
+.fav-text
+{
+    width: 100%;
+    height: 74px;
+    text-align: center;
+    font-size: 32px;
+}
+.fav-text h5
+{
+    padding-top: 22px;
+}
+.fav-icon
+{
+    width: 100%;
+    height: 139px;
+
+}
+.fav-icon li
+{
+    display: inline-block;
+    border-right: #eee solid 1px;
+    padding-right: 16px;
+    float: right;
+}
+.fav-icon img
+{
+    width: 131px;
+    height: 131px;
+}
+.fav-icon ul
+{
+    height: 100%;
+    overflow: hidden;
 }
