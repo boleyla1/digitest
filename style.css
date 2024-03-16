@@ -750,15 +750,15 @@
     width: 172px;
     height: 143px;
     display: inline-block;
-    border: gray solid 1px;
+    border: #eeeeee solid 1px;
     text-align: center;
     position: relative;
     float: right;
 }
 .div-pishnahad img
 {
-    width: 119px;
-    height: 118px;
+    width: 76px;
+    height: 59px;
     padding-top: 23px;
     z-index: 100;
     position: relative;
@@ -767,7 +767,7 @@
 }
 #div1-pishnahad
 {
-    border: gray solid 1px;
+    border: #eeeeee solid 1px;
     width: 100%;
     height: 77%;
 }
@@ -797,7 +797,6 @@
     height: 93%;
     width: 81%;
     margin: auto;
-    border: #eee 1px solid;
 }
 .fav-text
 {
@@ -819,17 +818,74 @@
 .fav-icon li
 {
     display: inline-block;
-    border-right: #eee solid 1px;
     padding-right: 16px;
     float: right;
 }
 .fav-icon img
 {
-    width: 131px;
-    height: 131px;
+    width: 114px;
+    height: 119px;
 }
 .fav-icon ul
 {
     height: 100%;
     overflow: hidden;
+}
+.div-footer
+{
+    width: 100%;
+    height: 400px;
+}
+.top-footer
+{
+    width: 100%;
+    height: 254px;
+}
+.first-top
+{
+    width: 100%;
+    height: 72px;
+}
+
+.first-top span
+{
+    float: right;
+    position: relative;
+    top: 13px;
+}
+.PhoneNumber{
+    height: 20px;
+    width: 193px;
+    text-align: center;
+    border-left: solid 1px;
+    float: right;
+}
+.PhoneNumber span{
+    width: 150px;
+    height: 20px;
+}
+.shoaar
+{
+    width: 246px;
+    float: right;
+    direction: rtl;
+    padding-right: 15px;
+}
+.icon-footer
+{
+    width: 100%;
+    height: 133px;
+    background: #00ff2b;
+    float: right;
+    text-align: center;
+}
+.about-footer
+{
+    width: 100%;
+    height: 43px;
+    background: yellow;
+}
+.icon-footer li
+{
+    display: inline-block;
 }
